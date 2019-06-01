@@ -21,7 +21,7 @@ import (
 	"syscall"
 
 	"golang.org/x/sys/unix"
-	"toolman.org/base/log"
+	"toolman.org/base/log/v2"
 )
 
 type epoll struct {
