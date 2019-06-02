@@ -51,6 +51,9 @@ var ErrNoFD = errors.New("no manner to discern file descriptor from object")
 // Note: We dupe the file descriptor before returning it because os.File has
 // a finalizer routine which calls Close when the object is garbage collected.
 // This also closes the file descriptor returned by its Fd method.
+//
+// Deprecated: With the advent of the syscall.RawConn interface introduced in
+// Go v1.12, ExtractFD is no longer necessary.
 func ExtractFD(x interface{}) (int, error) {
 	var fp *os.File
 	var closeX bool
