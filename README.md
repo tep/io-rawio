@@ -70,6 +70,8 @@ Note: We dupe the file descriptor before returning it because os.File has
 a finalizer routine which calls Close when the object is garbage collected.
 This also closes the file descriptor returned by its Fd method.
 
+**Deprecated:** With the advent of the syscall.RawConn interface introduced in
+Go v1.12, ExtractFD is no longer necessary.
 
 
 ## <a name="IsEAGAIN">func</a> [IsEAGAIN](/src/target/epoll.go?s=2378:2407#L98)
