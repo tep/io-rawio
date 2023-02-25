@@ -1,7 +1,7 @@
 github.com/spf13/pflag v1.0.3 h1:zPAT6CGy6wXeQ7NtTnaTerfKOsV6V6F8agHXFiazDkg=
 github.com/spf13/pflag v1.0.3/go.mod h1:DYY7MBk1bdzusC3SYhjObp+wFpr4gzcvqqNjLnInEg4=
 golang.org/x/sys v0.0.0-20190203050204-7ae0202eb74c/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
-golang.org/x/sys v0.0.0-20190531175056-4c3a928424d2 h1:T5DasATyLQfmbTpfEXx/IOL9vfjzW6up+ZDkmHvIf2s=
-golang.org/x/sys v0.0.0-20190531175056-4c3a928424d2/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+golang.org/x/sys v0.1.0 h1:kunALQeHf1/185U1i0GOB/fy1IPRDDpuoOOqRReG57U=
+golang.org/x/sys v0.1.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 toolman.org/base/log/v2 v2.1.0 h1://Gx1ca5ri88Z7wTuip9Ja7GPlnvp7BlL7C1VRsmTfA=
 toolman.org/base/log/v2 v2.1.0/go.mod h1:S/IHsuY72A9srk+mMzp+QcV4suGhkjlOAeHj5ADURFc=
